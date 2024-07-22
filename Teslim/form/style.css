@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,p{
+    text-align: center;
+}
+label{
+    display: block;
+}
+body{
+    background-color: rgb(71, 5, 71);
+    color: white;
+    width: auto;
+    font-family: tahoma;
+}
+form{
+    width: 40vw;
+    margin: 0 auto;
+    
+}
+input,textarea,select{
+    width: 40vw;
+    height: 4vh;
+    margin: 2px;
+    background-color: rgb(226, 151, 226);
+}
+label, input, textarea, select {
+    display: block;
+    margin-bottom: 1px; 
+}
+    
+fieldset{
+    border: none;
+}
+input[type="radio"]{
+    display: inline;
+    vertical-align: middle;
+}
+
+.male {
+   margin-left: 10px; 
+}
+.form-box{
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%; 
+    margin: 5px auto; 
+}
+
+button{
+    background-color: rgb(226, 151, 226);
+}
+button a{
+    text-decoration: none;
+    color: black;
+    display: inline;
+}
